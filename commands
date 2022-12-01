@@ -1,0 +1,15 @@
+## installing git
+sudo yum install git
+## checking status of the repository
+git status
+## configure your name and your email
+name
+git config --global user.name 'yourname'
+email
+git config --global user.email 'youremail'
+## creat a local git repository
+mkdir project_name
+cd project_name
+## initialize git
+git init
+
